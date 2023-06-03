@@ -1,0 +1,38 @@
+body{
+    padding:0;
+    margin:0;
+    background:linear-gradient(to right bottom,pink,green);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height:100vh;
+    align-items:center;
+}
+
+
+.section{
+    text-align: center;
+    align-items: center;
+}
+
+
+.btn{
+    font-size: 3rem;
+    margin: 10px;
+    padding:10px 30px;
+    color:rgb(61,116,165);
+    font-style:initial;
+    filter:grayscale();
+    transition:filter .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter:grayscale()
+}
+
+.emoji-name{
+    color:blue;
+    text-align: center;
+    align-items: center;
+}
